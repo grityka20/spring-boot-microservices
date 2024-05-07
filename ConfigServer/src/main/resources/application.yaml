@@ -8,7 +8,9 @@ spring:
     config:
       server:
         git:
+          default-label: main
           uri: https://github.com/grityka20/spring-boot-microservices
+          search-paths: ConfigServer/src/main/resources
           clone-on-start: true
 
     
